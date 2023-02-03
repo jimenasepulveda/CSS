@@ -1,0 +1,26 @@
+*{
+    color:aqua;
+    background-color:black;
+    font-family: 'Dancing Script', cursive;
+}
+.contenido{
+    display: flex;
+    justify-content:space-around;
+    padding: 5px;
+    align-items: center;
+}
+li{
+    display: inline-block;
+    padding: 8px 10px;
+}
+li:hover{
+    background-color:hotpink;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.contenido3{
+    display: flex;
+    justify-content:flex-end;
+    padding: 5px;
+    align-items: center;
+}
